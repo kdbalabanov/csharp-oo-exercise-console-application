@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorBasedDrawing", "VectorBasedDrawing\VectorBasedDrawing.csproj", "{A2C91AF6-8BE5-4293-9442-8D0CA69236DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorBasedDrawing.UnitTests", "VectorBasedDrawing.UnitTests\VectorBasedDrawing.UnitTests.csproj", "{519E153E-46C7-4D6C-8B2F-EFE6CA0EF2AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2C91AF6-8BE5-4293-9442-8D0CA69236DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C91AF6-8BE5-4293-9442-8D0CA69236DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C91AF6-8BE5-4293-9442-8D0CA69236DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C91AF6-8BE5-4293-9442-8D0CA69236DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519E153E-46C7-4D6C-8B2F-EFE6CA0EF2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519E153E-46C7-4D6C-8B2F-EFE6CA0EF2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519E153E-46C7-4D6C-8B2F-EFE6CA0EF2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519E153E-46C7-4D6C-8B2F-EFE6CA0EF2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5684F73F-D3AF-44F4-942E-EC7B707F49E0}
+	EndGlobalSection
+EndGlobal
