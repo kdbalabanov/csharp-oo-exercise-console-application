@@ -20,6 +20,7 @@ namespace VectorBasedDrawing.src.ApplicationCore.Entities
         {
             for (int i = 0; i < _height; i++)
             {
+                Console.SetCursorPosition(base.X, base.Y + i);
                 for (int j = 0; j < _width; j++)
                 {
                     Console.Write("*");

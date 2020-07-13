@@ -7,9 +7,11 @@ namespace VectorBasedDrawing.src.ApplicationCore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Rectangle rectangle = new Rectangle(0, 0, 10, 10);
+            Shape rectangle = new Rectangle(10, 10, 30, 40);
+            Shape square = new Square(15, 30, 35);
+
             rectangle.Draw();
+            square.Draw();
         }
     }
 }
