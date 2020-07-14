@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Reflection;
 using VectorBasedDrawing.src.ApplicationCore.Entities;
 
 namespace VectorBasedDrawing.src.ApplicationCore

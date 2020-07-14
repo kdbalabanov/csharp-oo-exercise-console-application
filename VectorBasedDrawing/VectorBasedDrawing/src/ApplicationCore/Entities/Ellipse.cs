@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace VectorBasedDrawing.src.ApplicationCore.Entities
+﻿namespace VectorBasedDrawing.src.ApplicationCore.Entities
 {
     public class Ellipse : Shape
     {
