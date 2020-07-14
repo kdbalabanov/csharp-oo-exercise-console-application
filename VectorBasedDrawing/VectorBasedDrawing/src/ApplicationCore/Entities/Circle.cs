@@ -4,13 +4,13 @@ using System.Text;
 
 namespace VectorBasedDrawing.src.ApplicationCore.Entities
 {
-    public class Circle : Ellipse
+    public class Circle : Shape
     {
         private int _diameter;
 
-        public Circle(int x, int y, int diameter) : base(x, y, diameter, diameter)
+        public Circle(int x, int y, int diameter) : base(x, y)
         {
-            _diameter = Math.Abs(diameter);
+            Diameter = diameter;
         }
 
         public int Diameter

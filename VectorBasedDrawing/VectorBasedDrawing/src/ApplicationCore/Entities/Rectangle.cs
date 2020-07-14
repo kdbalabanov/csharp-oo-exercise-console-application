@@ -11,8 +11,8 @@ namespace VectorBasedDrawing.src.ApplicationCore.Entities
 
         public Rectangle(int x, int y, int width, int height) : base(x, y)
         {
-            _width = Math.Abs(width);
-            _height = Math.Abs(height);
+            Width = width;
+            Height = height;
         }
 
         public int Width

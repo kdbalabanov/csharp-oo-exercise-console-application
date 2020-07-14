@@ -21,5 +21,16 @@ namespace VectorBasedDrawing.UnitTests.tests.UnitTests.ApplicationCore.Entities
             Assert.AreEqual(_width, rectangle.Width);
             Assert.AreEqual(_height, rectangle.Height);
         }
+
+        [TestMethod]
+        public void TestRectangleInitializationNegativeValues()
+        {
+            var rectangle = new Rectangle(-40, -60, -100, -50);
+
+            Assert.AreEqual(0, rectangle.X);
+            Assert.AreEqual(0, rectangle.Y);
+            Assert.AreEqual(0, rectangle.Width);
+            Assert.AreEqual(0, rectangle.Height);
+        }
     }
 }

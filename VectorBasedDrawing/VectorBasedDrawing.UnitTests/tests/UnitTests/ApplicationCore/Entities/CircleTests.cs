@@ -18,9 +18,20 @@ namespace VectorBasedDrawing.UnitTests.tests.UnitTests.ApplicationCore.Entities
         {
             var circle = new Circle(_x, _y, _diameter);
 
+
             Assert.AreEqual(_x, circle.X);
             Assert.AreEqual(_y, circle.Y);
             Assert.AreEqual(_diameter, circle.Diameter);
+        }
+
+        [TestMethod]
+        public void TestCircleInitializationNegativeValues()
+        {
+            var circle = new Circle(-10, -20, -55);
+
+            Assert.AreEqual(0, circle.X);
+            Assert.AreEqual(0, circle.Y);
+            Assert.AreEqual(0, circle.Diameter);
         }
     }
 }

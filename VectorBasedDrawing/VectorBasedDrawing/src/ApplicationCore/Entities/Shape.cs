@@ -13,8 +13,8 @@ namespace VectorBasedDrawing.src.ApplicationCore.Entities
 
         public Shape(int x, int y)
         {
-            _x = Math.Abs(x);
-            _y = Math.Abs(y);
+            X = x;
+            Y = y;
         }
 
         public void PrintDetails()

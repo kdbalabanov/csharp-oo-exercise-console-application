@@ -10,12 +10,12 @@ namespace VectorBasedDrawing.src.ApplicationCore.Entities
 
         public Textbox(int x, int y, int width, int height, string text) : base(x, y, width, height)
         {
-            _text = text;
+            Text = text;
         }
 
         public string Text
         {
-            get => _text;
+            get => _text ?? "";
 
             set 
             {

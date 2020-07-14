@@ -24,5 +24,16 @@ namespace VectorBasedDrawing.UnitTests.tests.UnitTests.ApplicationCore.Entities
             Assert.AreEqual(_horizontalDiameter, ellipse.HorizontalDiameter);
             Assert.AreEqual(_horizontalDiameter, ellipse.VerticalDiameter);
         }
+
+        [TestMethod]
+        public void TestEllipseInitializationNegativeValues()
+        {
+            var ellipse = new Ellipse(-11, -22, -70, -120);
+
+            Assert.AreEqual(0, ellipse.X);
+            Assert.AreEqual(0, ellipse.Y);
+            Assert.AreEqual(0, ellipse.HorizontalDiameter);
+            Assert.AreEqual(0, ellipse.VerticalDiameter);
+        }
     }
 }

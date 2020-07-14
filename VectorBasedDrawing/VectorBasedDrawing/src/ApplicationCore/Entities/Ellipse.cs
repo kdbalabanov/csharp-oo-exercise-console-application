@@ -11,8 +11,8 @@ namespace VectorBasedDrawing.src.ApplicationCore.Entities
 
         public Ellipse(int x, int y, int horizontalDiameter, int verticalDiameter) : base(x, y)
         {
-            _horizontalDiameter = Math.Abs(horizontalDiameter);
-            _verticalDiameter = Math.Abs(verticalDiameter);
+            HorizontalDiameter = horizontalDiameter;
+            VerticalDiameter = verticalDiameter;
         }
 
         public int HorizontalDiameter
