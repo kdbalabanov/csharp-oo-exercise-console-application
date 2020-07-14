@@ -10,19 +10,17 @@ namespace VectorBasedDrawing.src.ApplicationCore.Entities
 
         public Square(int x, int y, int size) : base(x, y, size, size)
         {
-            _size = size;
+            _size = Math.Abs(size);
         }
 
         public int Size
         {
-            get { return _size; }
+            get => _size;
 
             set
             {
                 if (value >= 0)
-                {
                     _size = value;
-                }
             }
         }
     }

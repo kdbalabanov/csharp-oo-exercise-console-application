@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
 using VectorBasedDrawing.src.ApplicationCore.Entities;
 
 namespace VectorBasedDrawing.src.ApplicationCore
@@ -7,15 +9,22 @@ namespace VectorBasedDrawing.src.ApplicationCore
     {
         static void Main(string[] args)
         {
-            Shape rectangle = new Rectangle(10, 10, 30, 40);
-            Shape square = new Square(15, 30, 35);
-            Shape ellipse = new Ellipse(0, 0, 40, 20);
-            Shape circle = new Circle(0, 0, 300);
+            var drawing = new List<Widget>();
+            drawing.Add(new Rectangle(10, 10, 30, 40));
+            drawing.Add(new Square(15, 30, 35));
+            drawing.Add(new Ellipse(100, 150, 300, 200));
+            drawing.Add(new Circle(1, 1, 300));
+            drawing.Add(new Textbox(5, 5, 200, 100, "sample text"));
 
-            //rectangle.Draw();
-            //square.Draw();
-            //ellipse.Draw();
-            //circle.Draw();
+
+            Console.WriteLine("----------------------------------------------------------------");
+            Console.WriteLine("Requested Drawing");
+            Console.WriteLine("----------------------------------------------------------------");
+            foreach (var widget in drawing)
+            {
+                widget.PrintDetails();
+            }
+            Console.WriteLine("----------------------------------------------------------------");
         }
     }
 }

@@ -10,19 +10,17 @@ namespace VectorBasedDrawing.src.ApplicationCore.Entities
 
         public Circle(int x, int y, int diameter) : base(x, y, diameter, diameter)
         {
-            _diameter = diameter;
+            _diameter = Math.Abs(diameter);
         }
 
         public int Diameter
         {
-            get { return _diameter; }
+            get => _diameter;
 
             set
             {
                 if (value >= 0)
-                {
                     _diameter = value;
-                }
             }
         }
     }

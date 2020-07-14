@@ -21,8 +21,8 @@ namespace VectorBasedDrawing.UnitTests.tests.UnitTests.ApplicationCore.Entities
 
             Assert.AreEqual(_x, ellipse.X);
             Assert.AreEqual(_y, ellipse.Y);
-            Assert.AreEqual(_horizontalDiameter, ellipse.HorizontalD);
-            Assert.AreEqual(_horizontalDiameter, ellipse.VerticalD);
+            Assert.AreEqual(_horizontalDiameter, ellipse.HorizontalDiameter);
+            Assert.AreEqual(_horizontalDiameter, ellipse.VerticalDiameter);
         }
     }
 }
