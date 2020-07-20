@@ -23,7 +23,7 @@ Microsoft Visual Studio
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/kdbalabanov/csharp-oo-exercise-console-application/blob/master/README.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/kdbalabanov/csharp-oo-exercise-console-application/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
