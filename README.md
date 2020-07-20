@@ -26,6 +26,3 @@ Microsoft Visual Studio
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/kdbalabanov/csharp-oo-exercise-console-application/blob/master/LICENSE) file for details
 
 ## Acknowledgments
-
-* Catalyst package documentation: https://enigma.co/catalyst/index.html
-
